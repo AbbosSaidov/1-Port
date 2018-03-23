@@ -13,4 +13,17 @@
         android:text="Create"
         tools:layout_editor_absoluteX="125dp"
         tools:layout_editor_absoluteY="132dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="204dp"
+        android:onClick="Viom"
+        android:text="@string/create"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="169dp"
+/>
 </android.support.constraint.ConstraintLayout>
